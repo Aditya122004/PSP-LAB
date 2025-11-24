@@ -28,7 +28,7 @@ def search_query(index, word):
     return index.get(word, None)
 
 files=["t1.txt","t2.txt","t3.txt"]
-index = create_inverted_index()
+index = create_inverted_index(files)
 print("Inverted Index created successfully!")
 
 while True:
