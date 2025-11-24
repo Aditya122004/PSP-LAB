@@ -3,7 +3,7 @@ radius1=float(input("Enter the radius of first Pizza: "))
 radius2=float(input("Enter the radius of second Pizza: "))
 price1=int(input("Enter the price of first Pizza: "))
 price2=int(input("Enter the price of second Pizza: "))
-if(radius1<=0 or radius<=0 or price1<=0 or price2<=0):
+if(radius1<=0 or radius2<=0 or price1<=0 or price2<=0):
     print("Invalid Data Entered")
 else:
     area1=math.pi*radius1*radius1
@@ -14,3 +14,4 @@ else:
         print("Pizza 1 has better value")
     else:
         print("Pizza 2 has better value")
+
